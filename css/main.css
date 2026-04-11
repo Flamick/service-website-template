@@ -398,6 +398,10 @@ h6 {
 	width: 100%;
 }
 
+.why-us__list-item:nth-child(3) {
+	gap: 21px;
+}
+
 .why-us__list-item:nth-child(3) .why-us__icon-container {
 	width: 20px;
 	height: 25px;
