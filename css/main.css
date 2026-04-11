@@ -159,7 +159,7 @@ h6 {
 
 .hero__title-support {
 	background: linear-gradient(to right, #1b6d2433 0%, #1b6d244d 100%);
-	display: inline-block;
+	width: fit-content;
 	padding: 4px 12px;
 	color: #a3f69c;
 	font-size: 12px;
@@ -339,4 +339,92 @@ h6 {
 .services__card-button img {
 	height: 10px;
 	width: 10px;
+}
+
+/* why-us */
+.why-us {
+	padding-top: 95px;
+	padding-bottom: 90px;
+	background: #f2f3fd;
+}
+
+.why-us__container {
+	padding: 0 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 58px;
+}
+
+.why-us__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 32px;
+	width: 82%;
+}
+
+.why-us__title {
+	font-size: 30px;
+	line-height: 38px;
+	color: #191b22;
+}
+
+.why-us__list {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	gap: 24px;
+}
+
+.why-us__list-item {
+	padding: 16px;
+	display: flex;
+	gap: 16px;
+}
+
+.why-us__icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	height: 25px;
+	width: 25px;
+}
+
+.why-us__icon-container img {
+	height: auto;
+	width: 100%;
+}
+
+.why-us__list-item:nth-child(3) .why-us__icon-container {
+	width: 20px;
+	height: 25px;
+}
+
+.why-us__description-container {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.why-us__description-heading {
+	font-family: "Work Sans", sans-serif;
+	font-size: 18px;
+	color: #191b22;
+	line-height: 28px;
+}
+
+.why-us-description-text {
+	font-size: 14px;
+	line-height: 20px;
+	color: #424752;
+	width: 250px;
+}
+
+.why-us__image img {
+	transform: rotate(2deg);
+	border-radius: 24px;
+	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
