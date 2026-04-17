@@ -5,7 +5,7 @@ const elements = document.querySelectorAll(".fade-from-bottom");
 const options = {
 	root: null, // Use viewport as root
 	rootMargin: "0px", // No extra margin
-	threshold: 0.7, // 10% visible triggers callback (adjust 0-1)
+	threshold: 0.3, // 10% visible triggers callback (adjust 0-1)
 };
 
 const callback = (entries, observer) => {
