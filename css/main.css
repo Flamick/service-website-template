@@ -98,6 +98,19 @@ h6 {
 	font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+.fade-from-bottom {
+	opacity: 0;
+	transform: translateY(50px);
+	transition:
+		opacity 0.8s ease-out,
+		transform 0.8s ease-out;
+}
+
+.in-view {
+	opacity: 1;
+	transform: translateY(0);
+}
+
 /* site-header */
 .site-header {
 	position: fixed;
