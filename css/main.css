@@ -931,8 +931,9 @@ textarea.contact__form-input {
 	background-color: #1b6d24;
 	height: 12px;
 	width: 12px;
-	padding: 4px;
-	position: relative;
+	mask-size: contain;
+	mask-repeat: no-repeat;
+	mask-position: center;
 }
 
 .included__card-icon-border {
